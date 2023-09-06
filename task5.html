@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="csstask5">
+  </head>
+  <body>
+    <h1 align="center" >Registration form</h1>
+    <table border="1" align="center" style="border-collapse: collapse;">
+      <form>
+        <tr>
+          <th>
+            <label for="firstname">First Name</label>
+          </th>
+          <td>
+            <input type="text" id="firstname" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="lastname">Last Name</label>
+          </th>
+          <td>
+            <input type="text" id="lastname" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="email">Email</label>
+          </th>
+          <td>
+            <input type="email" id="email" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="password">Password</label>
+          </th>
+          <td>
+            <input type="password" id="password" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="cpassword">Re-enter Password</label>
+          </th>
+          <td>
+            <input type="password" id="cpassword" />
+          </td>
+        </tr>
+        <tr>
+          <th rowspan="2">Gender:</th>
+          <td>
+            <input type="radio" id="male" name="gender" />
+            <label for="male">Male</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="age">Age:</label>
+          </th>
+          <td>
+            <input type="text" id="Age" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="pno">Phone Numbers</label>
+          </th>
+          <td>
+            <input type="tel" id="pno" />
+          </td>
+        </tr>
+        <tr>
+          <th rowspan="4"><label for="address">Address</label></th>
+          <td rowspan="4"><input type="text" /></td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr><th><label for="state">State</label></th>
+            <td><input type="text" id="state"></td></tr>
+        <tr><td><select id="state" placeholder="choose your country"></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
