@@ -4,18 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration form</title>
-    <link rel="stylesheet" href="csstask5.css">
+    <style>
+      input[type="text"]{
+        width: 97.7%;
+      }
+      input[type="password"]
+      {
+        width: 97.7%;
+      }
+      input[type="email"]
+      {
+        width: 97.7%;
+      }
+      input[type="tel"]
+      {
+        width: 97.7%;
+      }
+    </style>
   </head>
   <body>
-    <h1 align="center" >Registration form</h1>
-    <table border="1" align="center" style="border-collapse: collapse;">
+    <h1 style="color: blue; text-align: center;">Registration form</h1>
+    <table border="1" align="center" style="border-collapse: collapse; width: 500px;">
       <form>
         <tr>
           <th>
             <label for="firstname">First Name</label>
           </th>
           <td>
-            <input type="text" id="firstname" />
+            <input type="text" id="firstname" style="width:97.7%;"/>
           </td>
         </tr>
         <tr>
@@ -80,7 +96,7 @@
           </td>
         </tr>
         <tr>
-          <th rowspan="4"><label for="address">Address</label></th>
+          <th ><label for="address">Address</label></th>
           <td rowspan="4"><input type="text" /></td>
         </tr>
         <tr></tr>
@@ -89,9 +105,31 @@
         <tr></tr>
         <tr><th><label for="state">State</label></th>
             <td><input type="text" id="state"></td></tr>
-        <tr><td><select id="state" placeholder="choose your country"></td>
+        <tr><th>Country</th>
+            <td><input list="countries" name="browser" placeholder="Choose your country">
+                <datalist id="countries">
+                  <option value="India">
+                  <option value="Sri Lanka">
+                  <option value="Vietnam">
+                  <option value="Bangladesh">
+                </datalist>
+            </td>
         </tr>
+        <tr>
+          <th><label for="languages">Languages known</label></th>
+          <td><input type="checkbox" id="English" value="English">English
+            <input type="checkbox" id="Kannada" value="Kannada">Kannada
+            <input type="checkbox" id="Tamil" value="Tamil">Tamil
+            <input type="checkbox" id="Hindi" value="Hindi">Hindi
+          </td>
+        </tr>
+        <tr><td colspan="2"><input type="checkbox" id="true" value="True">Hereby I declare all the given details are true</td></tr>
+        <tr><td style="padding-left:67% ;" colspan="2">Log in to <a href="https://ethnus.com/about/">Ethnus</a> website</td></tr>
       </form>
     </table>
+    <br>
+    <div style="text-align: center;">
+    <input type="submit" value="Register">
+    </div>
   </body>
 </html>
