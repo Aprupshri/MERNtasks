@@ -1,0 +1,36 @@
+#nav a{
+    position: absolute;
+    left:-80px;
+    transition:0.3s;
+    padding: 15px;
+    width: 100px;
+    border-radius:0px 5px 5px 0px;
+    text-decoration: none;
+    color: rgb(243, 245, 247);
+
+}
+#nav a:hover{
+    left:0;
+}
+
+#home{
+    top:80px;
+    background-color: rgb(21, 198, 121);
+}
+
+#about{
+    top: 140px;
+    background-color: rgb(24, 140, 202);
+}
+#contact{
+    top: 200px;
+    background-color: rgb(223, 56, 30);
+}
+#help{
+    top: 260px;
+    background-color: rgb(71, 74, 76);
+}
+
+div{
+    margin-left: 80px;
+}

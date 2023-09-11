@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgba(221, 234, 48, 0.932);
+}
+#linking a{
+    margin:20px;
+    padding: 5px;
+    width: 100px;
+    position:absolute;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-right: 20px solid black;
+    color: blue;
+    font-weight: 400px;
+}
+
+#home{
+    top: 60px;
+    
+}
+#home:visited{
+    color:rgb(142, 26, 105);
+}
+
+#musings{
+    top: 100px;
+}
+#musings:visited{
+    color:rgb(142, 26, 105);
+}
+#town{
+    top:140px
+}
+
+#town{
+    color:rgb(142, 26, 105);
+}
+#links{
+    top:180px
+}
+
+#links{
+    color:rgb(142, 26, 105);
+}
+
+#content{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(142, 26, 105);
+    margin-left: 170px;
+    margin-top: -20px
+}

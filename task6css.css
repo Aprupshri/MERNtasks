@@ -1,0 +1,44 @@
+img{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+div{
+
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+#username{
+    width: 99%;
+    padding: 10px;
+}
+#password{
+    width: 99%;
+    padding: 10px;
+}
+
+#button{
+    width:100%;
+    padding: 10px;
+    color:white;
+    border: none;
+    background-color: rgb(116, 173, 29);
+}
+
+#bottom{
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+}
+#cancel{
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+a{
+    float:right;
+    margin-top: 10px;
+}

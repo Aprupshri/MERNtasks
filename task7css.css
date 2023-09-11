@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(147, 24, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+table{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+td{
+    text-align: left;
+}
+textarea{
+    width: 169px;
+    height: 30px;
+}
+#forms{
+    background-color: rgb(134, 26, 46);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+select{
+    padding: 5px;
+    background-color: #c8c5c5 ;
+}
+#register{
+    margin-left: 25%;
+    border:none;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+}

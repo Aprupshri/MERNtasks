@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 7</title>
+    <link rel="stylesheet" href="task7css.css" />
+  </head>
+  <body>
+    <h1>Task 7</h1>
+    <div id="forms">
+      <table>
+        <form>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" placeholder="your name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" placeholder="your email" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password">Password:</label>
+            </td>
+            <td>
+              <input type="password" id="password" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pno">Phone Number:</label>
+            </td>
+            <td>
+              <input type="tel" id="pno" />
+            </td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <label for="male">Male:</label>
+              <input type="radio" id="male" name="gender" value="male"/>
+              <label for="female">Female:</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="other">Other:</label>
+              <input type="radio" id="other" name="gender" value="other"/>
+            </td>
+          </tr>
+          <tr><td>Language:</td>
+            <td>
+                <select id="languages" name="languages" placeholder="Select Language">
+                  <option disabled="" selected="selected">Select Language</option>
+                    <option value="Tamil">Tamil</option>
+                  <option value="Hindi">Hindi</option>
+                  <option value="English">English</option>
+                  <option value="Marathi">Marathi</option>
+            </td>
+        </tr>
+        <tr>
+            <td>Zip Code:</td>
+            <td><input type="" id="Zip"</td>
+        </tr>
+        <tr>
+            <td>About:</td>
+            <td><textarea id="about" name="about" placeholder="Write about yourself..."></textarea></td>
+        </tr>
+        </form>
+      </table>
+      <br>
+      <input id="register" type="submit" value="Register">
+    </div>
+  </body>
+</html>
